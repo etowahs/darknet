@@ -1,7 +1,6 @@
 # Maple Leaf Detector 
 Custom object detection using implemenetation of Yolov3 ([paper](https://pjreddie.com/media/files/papers/YOLOv3.pdf)) trained on 800 images of *Acer rubrum* for 3500 batches, starting with the pre-trained `yolov3.weights`. Training set images downloaded from [iNaturalist](https://www.inaturalist.org/taxa/48098-Acer-rubrum) and labeled with [LabelImg](https://github.com/tzutalin/labelImg). 
 
-Example:
 ![Image with bounding boxes](predictedleaf.jpg)
 
 ## Installation 
