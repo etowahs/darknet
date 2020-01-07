@@ -7,7 +7,10 @@ Custom object detection using implemenetation of Yolov3 ([paper](https://pjreddi
 ```
 $ git clone https://github.com/etowahs/darknet.git
 $ cd darknet
+$ make                   <-- for Linux only
 ```
+If you have CUDA installed on your computer, you may want to have `GPU=1` in Makefile to have faster detection. See addtional instructions for [Linux](https://github.com/AlexeyAB/darknet#how-to-compile-on-linux-using-make) and [Windows](https://github.com/AlexeyAB/darknet#how-to-compile-on-windows-using-cmake-gui). 
+
 Download trained weights from [here](https://drive.google.com/file/d/16cxN0TKj6n5eOaUaXQd-R6DWVL-rE9Mi/view?usp=sharing) (235MB) and place it in the darknet folder. 
 
 ## Detecting Leaves 
