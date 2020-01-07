@@ -18,5 +18,5 @@ $ ./darknet detector test custom/darknet.data custom/yolov3.cfg leaf.weights -ex
 ```
 To run the detector on an entire folder of images, create a .txt file containing the file locations of all the images. Ex. my-imgs.txt
 ```
-$ ./darknet detector test custom/darknet.data custom/yolov3.cfg yolov3.backup -ext_output < my-imgs.txt > output.txt
+$ ./darknet detector test custom/darknet.data custom/yolov3.cfg leaf.weights -ext_output < my-imgs.txt > output.txt
 ```
