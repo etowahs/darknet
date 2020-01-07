@@ -8,6 +8,7 @@ Custom object detection using implemenetation of Yolov3 ([paper](https://pjreddi
 $ git clone https://github.com/etowahs/darknet.git
 $ cd darknet
 ```
+Download trained weights from [here](https://drive.google.com/file/d/16cxN0TKj6n5eOaUaXQd-R6DWVL-rE9Mi/view?usp=sharing) (235MB) and place it in the darknet folder. 
 
 ## Detecting Leaves 
 To run the detector on a single image:
